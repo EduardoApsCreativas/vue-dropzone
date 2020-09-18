@@ -397,6 +397,7 @@ export default {
       );
       if (!this.isS3OverridesServerPropagation) {
         promise.then((response) => {
+          console.log("esta es la respuesta de la firma ", response);
           if (response.success) {
             file.s3ObjectLocation = response.message;
             setTimeout(() => this.dropzone.processFile(file));
