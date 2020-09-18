@@ -22,7 +22,7 @@
     "less-loader": "^4.1.0",
     "marked": "^0.3.19",
     "prismjs": "^1.15.0",
-    "rimraf": "^2.6.3",
+    "rimraf": "^2.7.1",
     "rollup": "^1.32.1",
     "rollup-plugin-buble": "^0.19.6",
     "rollup-plugin-butternut": "^0.1.0",
@@ -57,6 +57,7 @@
     "dist"
   ],
   "dependencies": {
-    "dropzone": "^5.5.1"
+    "dropzone": "^5.5.1",
+    "schema-utils": "^2.7.1"
   }
 }
